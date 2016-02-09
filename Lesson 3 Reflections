@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When working with a team on the same project. teams can make branches and work on indvidula sections and then push the changes back to the master.
+  
