@@ -1,3 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  When working with a team on the same project. teams can make branches and work on indvidula sections and then push the changes back to the master.
-  
+  When working with a team on the same project. teams can make branches and work on indvidule sections and then push the changes back to the master.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	when you are in the middle of completely a logical update that doesn’t interfere with other parts of a file / program
+
+ ** Commands
+ git remote						// show a list of current remotes
+ git add remote [remote name] [https address]		// adds new remote on Github
+ git pull [remote name] [branch name]			// makes pull request from Github
+ pit push [remote name] [branch name]			// pushes local changes to server
+ 
